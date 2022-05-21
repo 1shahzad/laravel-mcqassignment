@@ -1,0 +1,22 @@
+.questions {
+    margin-bottom: 3%;
+}
+
+.questions div .bg-deepblue div,
+.questions div .bg-golden div {
+    color: white;
+    height: 5rem;
+}
+
+.questions div .bg-deepblue div h4 {
+    width: 20%;
+    margin-left: auto;
+    margin-right: 20%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.questions div .bg-golden div p {
+    margin-left: 6%;
+    padding-top: 2.5%;
+}

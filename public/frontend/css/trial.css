@@ -1,0 +1,163 @@
+            .Trialcategories a {
+                text-decoration: none;
+                color: black;
+                text-align: right;
+            }
+            
+            .Trialcategories a h3 {
+                padding-top: 26%;
+                font-weight: bold;
+            }
+            
+            .behaviour div h3 {
+                padding-top: 7%;
+                font-weight: bold;
+            }
+            
+            .ocd div h3 {
+                padding-top: 7%;
+            }
+            
+            .golden-box,
+            .gray-box {
+                height: 16rem;
+                padding: 1%;
+            }
+            
+            .centerlize {
+                display: initial;
+                height: 150px;
+                align-items: center;
+            }
+            /* Modal Pop up starts here */
+            
+            #servicesModal .modal-dialog {
+                max-width: 47rem;
+            }
+            
+            #servicesModal .modal-content {
+                border-radius: 0px;
+                background-color: var(--lightGray);
+            }
+            
+            #servicesModal .modal-body {
+                background-color: var(--lightGray);
+                padding: 4%;
+            }
+            
+            #servicesModal .modal-dialog .modal-content .bg-image {
+                background-color: rgba(0, 0, 0, 0.3);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-image: url("../images/depressed-young-spanish-male-sitting-chair-leaning-his-head-against-wall-2.png");
+                background-position-x: 29rem;
+            }
+            
+            #servicesModal .modal-dialog .modal-content p {
+                text-align: justify;
+                font-family: 'Muli';
+                font-size: 0.8rem;
+            }
+            
+            #servicesModal .modal-dialog .modal-content p {
+                text-align: justify;
+            }
+            
+            #servicesModal .modal-dialog .modal-content h3 {
+                padding-top: 3%;
+                padding-bottom: 3%;
+            }
+            
+            #servicesModal .modal-footer {
+                padding: 0.3rem;
+                background-color: var(--deepBlue);
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+            /* Modal pop up ends here */
+            
+            @media (max-width: 991px) {
+                .TRAUMATIC div h3 {
+                    padding-top: 10%;
+                }
+            }
+            
+            @media (max-width: 880px) {
+                .golden-box,
+                .gray-box {
+                    height: 15rem;
+                }
+                .behaviour div h3,
+                .TRAUMATIC div h3 {
+                    font-size: 1rem;
+                }
+                .schizophrenia div h3 {
+                    padding-top: 10% !important;
+                }
+                .schizophrenia div p,
+                .ocd div p {
+                    font-size: 0.9rem;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .golden-box,
+                .gray-box {
+                    height: 14rem;
+                    padding-left: 5%;
+                }
+                .alcohol div h3,
+                .eatingDisorder div h3 {
+                    padding-top: 10% !important;
+                }
+            }
+            
+            @media (max-width: 567px) {
+                .Trialcategories a h3 {
+                    padding-top: 2% !important;
+                    font-size: 0.8rem;
+                }
+                .Trialcategories a p {
+                    padding-top: 2% !important;
+                    font-size: 0.6rem;
+                }
+                .golden-box,
+                .gray-box {
+                    height: 9rem;
+                }
+                .anxiety div h3,
+                .PSYCHOSIS div h3 {
+                    padding-top: 25% !important;
+                }
+                .bipolar div h3,
+                .DISSOCIATION div h3,
+                .TRAUMATIC div h3,
+                .PARANOIA div h3,
+                .eatingDisorder div h3,
+                .DEPRESSION div h3,
+                .bipolar div h3,
+                .schizophrenia div h3,
+                .alcohol div h3 {
+                    padding-top: 10% !important;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .Trialcategories a p {
+                    font-size: 0.5rem;
+                }
+                .golden-box,
+                .gray-box {
+                    height: 8rem;
+                }
+            }
+            
+            @media (max-width: 416px) {
+                .Trialcategories a h3 {
+                    font-size: 0.6rem;
+                }
+                .golden-box,
+                .gray-box {
+                    height: 7.5rem;
+                }
+            }
